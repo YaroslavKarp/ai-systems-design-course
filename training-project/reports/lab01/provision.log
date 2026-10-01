@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20261001175012
+Start time: 20261001181125
 Username: DESKTOP-5QPQ0UU\xado2
 RunAs User: DESKTOP-5QPQ0UU\xado2
 Configuration Name: 
@@ -18,59 +18,6 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is .\provision.log
 PS C:\Users\xado2\ai-systems-design-course\training-project> winget configure --file .\fixtures\windows\lab01-workstation-windows11.dsc.yaml --accept-configuration-agreements
-winget configure --file .\fixtures\windows\lab01-workstation-windows11.dsc.yaml --accept-configuration-agreements
-winget list --id Git.Git --exact --source winget
-winget list --id GitHub.cli --exact --source winget
-winget list --id astral-sh.uv --exact --source winget
-OsVersion
-  Require Windows 11 or newer.
-  Модуль: Microsoft.Windows.Developer от Microsoft Corporation [PSGallery]
-    DSC Resource for Windows
-  Параметры:
-    MinVersion: 10.0.22000
-WinGetPackage [git]
-  Git for Windows.
-  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
-    PowerShell Module with DSC resources related to WinGet configurations
-  Параметры:
-    id: Git.Git
-    source: winget
-WinGetPackage [uv]
-  uv, the Python project and environment manager.
-  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
-    PowerShell Module with DSC resources related to WinGet configurations
-  Параметры:
-    id: astral-sh.uv
-    source: winget
-WinGetPackage [github-cli]
-  GitHub CLI for fork and pull-request delivery.
-  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
-    PowerShell Module with DSC resources related to WinGet configurations
-  Параметры:
-    id: GitHub.cli
-    source: winget
-WinGetPackage [obsidian]
-  Obsidian, the Markdown vault editor.
-  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
-    PowerShell Module with DSC resources related to WinGet configurations
-  Параметры:
-    id: Obsidian.Obsidian
-    source: winget
-Вы самостоятельно отвечаете за понимание параметров конфигурации, которую собираетесь выполнить. Корпорация Майкрософт не несет ответственности за файл конфигурации, который вы создали или импортировали. Эта кон
-фигурация может изменить параметры Windows, установить программное обеспечение, изменить параметры установленного программного обеспечения (включая параметры безопасности), а также принять от вашего имени пользо
-вательские соглашения для сторонних пакетов программ и служб. Запуская этот файл конфигурации, вы подтверждаете, что понимаете состав этих ресурсов и параметров и соглашаетесь их применить. Любые установленные п
-риложения лицензируются их владельцами. Майкрософт не несет ответственности за сторонние пакеты программ или службы и не предоставляет для них никаких лицензий.
-OsVersion
-  Система не находится в нужном состоянии, утвержденном конфигурацией.
-WinGetPackage [git]
-  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
-WinGetPackage [uv]
-  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
-WinGetPackage [github-cli]
-  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
-WinGetPackage [obsidian]
-  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
-Не удалось применить часть конфигурации.
 OsVersion
   Require Windows 11 or newer.
   Модуль: Microsoft.Windows.Developer от Microsoft Corporation [Локальный]
@@ -106,10 +53,12 @@ WinGetPackage [obsidian]
   Параметры:
     id: Obsidian.Obsidian
     source: winget
-Вы самостоятельно отвечаете за понимание параметров конфигурации, которую собираетесь выполнить. Корпорация Майкрософт не несет ответственности за файл конфигурации, который вы создали или импортировали. Эта кон
-фигурация может изменить параметры Windows, установить программное обеспечение, изменить параметры установленного программного обеспечения (включая параметры безопасности), а также принять от вашего имени пользо
-вательские соглашения для сторонних пакетов программ и служб. Запуская этот файл конфигурации, вы подтверждаете, что понимаете состав этих ресурсов и параметров и соглашаетесь их применить. Любые установленные п
-риложения лицензируются их владельцами. Майкрософт не несет ответственности за сторонние пакеты программ или службы и не предоставляет для них никаких лицензий.
+Вы самостоятельно отвечаете за понимание параметров конфигурации, которую собираетесь выполнить. Корпорация Майкрософт не несет ответственности за файл конфиг
+урации, который вы создали или импортировали. Эта конфигурация может изменить параметры Windows, установить программное обеспечение, изменить параметры устано
+вленного программного обеспечения (включая параметры безопасности), а также принять от вашего имени пользовательские соглашения для сторонних пакетов программ
+ и служб. Запуская этот файл конфигурации, вы подтверждаете, что понимаете состав этих ресурсов и параметров и соглашаетесь их применить. Любые установленные
+приложения лицензируются их владельцами. Майкрософт не несет ответственности за сторонние пакеты программ или службы и не предоставляет для них никаких лиценз
+ий.
 OsVersion
   Система не находится в нужном состоянии, утвержденном конфигурацией.
 WinGetPackage [git]
@@ -121,6 +70,62 @@ WinGetPackage [github-cli]
 WinGetPackage [obsidian]
   Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
 Не удалось применить часть конфигурации.
+PS C:\Users\xado2\ai-systems-design-course\training-project> winget configure --file .\fixtures\windows\lab01-workstation-windows11.dsc.yaml --accept-configuration-agreements
+OsVersion
+  Require Windows 11 or newer.
+  Модуль: Microsoft.Windows.Developer от Microsoft Corporation [Локальный]
+    https://github.com/microsoft/winget-dsc
+    DSC Resource for Windows
+  Параметры:
+    MinVersion: 10.0.22000
+WinGetPackage [git]
+  Git for Windows.
+  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
+    PowerShell Module with DSC resources related to WinGet configurations
+  Параметры:
+    id: Git.Git
+    source: winget
+WinGetPackage [uv]
+  uv, the Python project and environment manager.
+  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
+    PowerShell Module with DSC resources related to WinGet configurations
+  Параметры:
+    id: astral-sh.uv
+    source: winget
+WinGetPackage [github-cli]
+  GitHub CLI for fork and pull-request delivery.
+  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
+    PowerShell Module with DSC resources related to WinGet configurations
+  Параметры:
+    id: GitHub.cli
+    source: winget
+WinGetPackage [obsidian]
+  Obsidian, the Markdown vault editor.
+  Модуль: Microsoft.WinGet.DSC от Microsoft Corporation [PSGallery]
+    PowerShell Module with DSC resources related to WinGet configurations
+  Параметры:
+    id: Obsidian.Obsidian
+    source: winget
+Вы самостоятельно отвечаете за понимание параметров конфигурации, которую собираетесь выполнить. Корпорация Майкрософт не несет ответственности за файл конфиг
+урации, который вы создали или импортировали. Эта конфигурация может изменить параметры Windows, установить программное обеспечение, изменить параметры устано
+вленного программного обеспечения (включая параметры безопасности), а также принять от вашего имени пользовательские соглашения для сторонних пакетов программ
+ и служб. Запуская этот файл конфигурации, вы подтверждаете, что понимаете состав этих ресурсов и параметров и соглашаетесь их применить. Любые установленные
+приложения лицензируются их владельцами. Майкрософт не несет ответственности за сторонние пакеты программ или службы и не предоставляет для них никаких лиценз
+ий.
+OsVersion
+  Система не находится в нужном состоянии, утвержденном конфигурацией.
+WinGetPackage [git]
+  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
+WinGetPackage [uv]
+  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
+WinGetPackage [github-cli]
+  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
+WinGetPackage [obsidian]
+  Этот блок конфигурации не был запущен из-за сбоя утверждения или неверного утверждения.
+Не удалось применить часть конфигурации.
+PS C:\Users\xado2\ai-systems-design-course\training-project> winget list --id Git.Git --exact --source winget
+winget list --id GitHub.cli --exact --source winget
+winget list --id astral-sh.uv --exact --source winget
 Имя ИД      Версия
 --------------------
 Git Git.Git 2.55.0.5
@@ -140,5 +145,5 @@ uv 0.12.21 (7af826859 2026-09-29 x86_64-pc-windows-msvc)
 PS C:\Users\xado2\ai-systems-design-course\training-project> Stop-Transcript
 **********************
 Windows PowerShell transcript end
-End time: 20261001175141
+End time: 20261001181410
 **********************
