@@ -1,0 +1,13 @@
+﻿schema_version: "1.0"
+review_id: "live-primary-01-quotes-v1-semantic-review"
+proposal_id: "lab02-structured-output-live-primary-01-quotes-v1"
+proposal_sha256: "7f3397d1a5b4ec9daec2b4598b128fae4372baac32c7d4e532c39400128f5a51"
+validation_id: "lab02-structured-output-live-primary-01-quotes-v1-validation"
+validation_sha256: "9b99e59741c73bf498f9ded74319c1c10f343647bc3a4f3edc1ccd0bf5e14fb8"
+verdict: "acceptable"
+findings:
+  definition: "Визначення структурованого виводу підтверджене дослівною цитатою із зареєстрованого джерела."
+  control_gates: "Детермінована валідація підтвердила синтаксичні вимоги та інваріанти; це не є доказом семантичної істинності тверджень."
+  authority_boundary: "Пропозиція є кандидатом, а не канонічним записом. Валідація не замінює явного рішення уповноваженої людини."
+rationale: "Перевірено визначення, межі детермінованої валідації та розмежування між пропозицією моделі й людським схваленням."
+reviewed_by: "Yaroslav-Karpov"

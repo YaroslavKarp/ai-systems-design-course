@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "validation_id": "lab02-structured-output-live-primary-01-validation",
+  "proposal_id": "lab02-structured-output-live-primary-01",
+  "proposal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "validator_version": "1.0",
+  "syntactic_gate": {
+    "status": "failed",
+    "errors": [
+      "[Errno 2] No such file or directory: 'C:\\\\Users\\\\xado2\\\\AI-Engineering-Vault\\\\proposals\\\\lab02-structured-output-live-primary-01.md'"
+    ]
+  },
+  "invariant_gate": {
+    "status": "passed",
+    "errors": []
+  },
+  "errors": [
+    "[Errno 2] No such file or directory: 'C:\\\\Users\\\\xado2\\\\AI-Engineering-Vault\\\\proposals\\\\lab02-structured-output-live-primary-01.md'"
+  ],
+  "valid": false,
+  "checked_at": "2026-10-17T14:24:42.263189+00:00"
+}

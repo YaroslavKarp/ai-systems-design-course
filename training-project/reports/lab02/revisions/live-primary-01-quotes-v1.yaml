@@ -1,0 +1,18 @@
+﻿schema_version: "1.0"
+revision_id: "live-primary-01-quotes-v1"
+derived_from:
+  proposal_id: "lab02-structured-output-live-primary-01"
+  proposal_sha256: "3676d5d879831786fa393151966fea26a376c7953078e18ae9e5d67b78be250d"
+changes:
+  source_support:
+    - claim: "Structured output is model output intended to follow an explicit machine-readable organization, such as a JSON object with named fields."
+      claim_kind: "definition"
+      quote: '**Structured output** is model output intended to follow an explicit machine-readable organization, such as a JSON object with named fields.'
+    - claim: "Structural conformance does not establish semantic correctness."
+      claim_kind: "syntax-vs-semantics"
+      quote: "A prompt can request a format but cannot guarantee that the model will follow it."
+    - claim: "Deterministic validation does not grant authority to approve or change canonical knowledge."
+      claim_kind: "authority-boundary"
+      quote: "Deterministic validation reads the candidate without approving it or changing canonical knowledge."
+rationale: "Corrected all three source quotations to match the registered source text exactly."
+revised_by: "Yaroslav-Karpov"
