@@ -1,0 +1,8 @@
+changed_property: source-grounding instruction
+mechanism: Requiring claims to stay within the supplied source and to identify missing information may
+  reduce unsupported assertions while preserving supported answers.
+declared_factors:
+- source-grounding instruction
+variant_a_sha256: d765770175309f6014f3af33d845b730aa0d7323fccd57403e8146be4dc352ee
+variant_b_sha256: ed874cf8624aab5ba5f4416dfa6311a4058860de66f7f180d964489a2e31d8f9
+recorded_at: '2026-11-02T06:58:49.475840+00:00'

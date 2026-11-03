@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-plain-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-11-03T08:50:12.661868+00:00",
+  "finished_at": "2026-11-03T08:50:21.979992+00:00",
+  "recorded_by": "Yaroslav-Karpov",
+  "observed_model": "nvidia/nemotron-3.5-lightning:free"
+}

@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-rubric-absent-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-11-03T08:55:36.247118+00:00",
+  "finished_at": "2026-11-03T08:55:46.627684+00:00",
+  "recorded_by": "Yaroslav-Karpov",
+  "observed_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+}

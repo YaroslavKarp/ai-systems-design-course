@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "cmp-3badcdea3547",
+  "comparison_dir": "C:\\Users\\xado2\\ai-systems-design-course\\training-project\\reports\\lab03\\comparisons\\cmp-3badcdea3547",
+  "protocol": {
+    "engineering_decision": "Чи має B замінити A для оцінюваної операції пропозиції поняття?",
+    "hypothesis": "Явне правило опори лише на надане джерело зменшить непідтримані твердження U і збереже повноту підкріплених відповідей; це гіпотеза, а не результат.",
+    "semantic_acceptance": "Для кожної конфігурації щонайменше 6 із 8 запланованих позицій мають прийнятну відповідь S або Q. Знаменник — усі 8 позицій; невдалі, структурно некоректні та непридатні до оцінювання відповіді не входять до чисельника. Будь-яка категорія U є блокувальною.",
+    "blocking_failures": "Будь-яке суттєве непідтримане твердження з категорією U блокує відповідну конфігурацію.",
+    "operational_acceptance": "Кожна повернена відповідь має завершитися не пізніше ніж за 120 секунд від recorded started_at до finished_at. Невідома затримка не підтверджує цей критерій. Невідомі токени або вартість залишаються невідомими й не дають підстав заявляти економію.",
+    "tradeoff_rule": "Рекомендувати B лише якщо він проходить критерії прийняття, має кращий результат за рубрикою або усуває блокувальну відмову A, і немає відомого погіршення іншого виміряного важливого показника. Якщо A прийнятний, а перевагу B не доведено, залишити A. Невиміряні показники не вважати перевагою.",
+    "decision_rule": {
+      "recommend-b": "B проходить критерії прийняття, не має блокувального U і демонструє виміряну перевагу без відомого погіршення іншого важливого показника.",
+      "retain-a": "A прийнятний, а свідчень недостатньо, щоб обґрунтувати заміну на B.",
+      "reject-both": "Обидві конфігурації порушують відомий блокувальний критерій.",
+      "seek-more-evidence": "Результатів або вимірювань недостатньо для обґрунтованого вибору."
+    },
+    "attempt_budget": 16,
+    "timing_boundary": "Для кожної поверненої спроби — інтервал від записаного started_at до finished_at; однакове визначення для A і B.",
+    "route": {
+      "adapter": "openrouter",
+      "model_id": "openrouter/free"
+    },
+    "order_rule": "course-generated balanced schedule",
+    "resume_window": "48h"
+  },
+  "variant_a_sha256": "69f0f1d6b4b3298353df79e53cff0fd654f15df43117a6e40f865cb655448d91",
+  "variant_b_sha256": "ed874cf8624aab5ba5f4416dfa6311a4058860de66f7f180d964489a2e31d8f9",
+  "change_declaration": {
+    "changed_property": "source-grounding instruction",
+    "mechanism": "Requiring claims to stay within the supplied source and to identify missing information may reduce unsupported assertions while preserving supported answers.",
+    "declared_factors": [
+      "source-grounding instruction"
+    ]
+  },
+  "route": {
+    "adapter": "openrouter",
+    "model_id": "openrouter/free"
+  },
+  "resume_window": "48h",
+  "eligible_reserve_count_at_freeze": 3,
+  "bindings": {
+    "output_schema_sha256": "b656ec5caa60b098b6711283893cfe0a6b0f5391d43accd55f2c136b828ca0c7",
+    "case_family_contract_sha256": "5bad7f720a34f0e5a02127a71841eb9143feaefb05a85887c7701679503867ac",
+    "validator_module_sha256": "f2c763d45afdff72214990c078c75ba10f35d907a36194cab6a0ad81dc436360",
+    "validator_schema_version": "1.0",
+    "development_schedule_sha256": "d589f1e3d98cd3adda6e9532c7ff603e4c15759a9a3f395942d0311e294d3f0f",
+    "change_declaration_sha256": "ab3df1b6471668645edaed6581eefe6c2fe1414550b9e060ebd1208a7d085eab",
+    "exposure_ledger_sha256": "a34c1a5a459235652961ed5654cf0e7cf17c2382f8d99cb17434a828ddc14a60"
+  },
+  "frozen_at": "2026-11-03T08:46:18.419389+00:00",
+  "frozen_by": "Yaroslav-Karpov"
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "triggering_position_id": "pos-dev-approval-authority-absent-a-1",
+  "failure_class": "position-specific",
+  "resume_probe_used": true,
+  "resume_succeeded": true,
+  "recorded_at": "2026-11-02T06:57:15.941624+00:00"
+}

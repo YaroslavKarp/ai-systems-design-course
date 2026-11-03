@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-ambiguous-acceptance-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-11-03T09:02:55.798347+00:00",
+  "finished_at": "2026-11-03T09:03:08.636201+00:00",
+  "recorded_by": "Yaroslav-Karpov",
+  "observed_model": "dots-studio/dots-3-note-preview:free"
+}

@@ -1,0 +1,7 @@
+regression_id: authored-supported-plus-invented
+source_kind: authored-fixture
+fixture_id: authored-failure-supported-plus-invented
+model_authorship_claim: none
+diagnosis: "The response correctly links the source baseline to checking a proposal, but adds automatic archiving of rejected proposals, which the source does not support."
+expected_behavior_review: "The expected boundary remains correct: the source baseline links source material to proposal checking and says nothing about automatically archiving rejected proposals."
+reviewed_by: Yaroslav-Karpov

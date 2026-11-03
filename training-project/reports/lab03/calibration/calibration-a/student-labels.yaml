@@ -1,0 +1,17 @@
+schema_version: '1.0'
+packet_id: calibration-a
+labels:
+  - output_id: cal-a-1
+    category: S
+    rationale: "Повністю відповідає завданню та джерелу, зберігаючи ключову суть визначення."
+  - output_id: cal-a-2
+    category: I
+    rationale: "Спирається на джерело, але пропускає визначальну частину про перевірку пропозиції."
+  - output_id: cal-a-3
+    category: U
+    rationale: "Містить вигадане твердження про «автоматичне схвалення змін», якого немає в тексті."
+  - output_id: cal-a-4
+    category: Q
+    rationale: "Правильно фіксує відсутність даних про тривалість у джерелі замість домислювання."
+student: Yaroslav-Karpov
+recorded_at: '2026-11-01T22:02:13.071328+00:00'

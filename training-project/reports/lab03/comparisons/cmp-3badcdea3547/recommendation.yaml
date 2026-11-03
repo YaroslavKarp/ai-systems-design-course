@@ -1,0 +1,34 @@
+schema_version: '1.0'
+comparison_id: cmp-3badcdea3547
+outcome: seek-more-evidence
+rationale: B has 8 of 8 rubric-acceptable responses and no blocking U, while A has 6 of 8 and one blocking
+  U. However, B has higher observed latency, the router resolved requests to different underlying models,
+  and the small sample does not settle the trade-off.
+limitations:
+- One four-case family
+- observed underlying models varied across requests
+- B latency was higher in this sample
+- token usage and monetary cost are unknown.
+blocking_failures: Будь-яке суттєве непідтримане твердження з категорією U блокує відповідну конфігурацію.
+decision_rule:
+  recommend-b: B проходить критерії прийняття, не має блокувального U і демонструє виміряну перевагу без
+    відомого погіршення іншого важливого показника.
+  retain-a: A прийнятний, а свідчень недостатньо, щоб обґрунтувати заміну на B.
+  reject-both: Обидві конфігурації порушують відомий блокувальний критерій.
+  seek-more-evidence: Результатів або вимірювань недостатньо для обґрунтованого вибору.
+nested_counts:
+  a:
+    attempted: 8
+    returned: 8
+    structurally_valid: 7
+    assessable: 7
+    rubric_acceptable: 6
+  b:
+    attempted: 8
+    returned: 8
+    structurally_valid: 8
+    assessable: 8
+    rubric_acceptable: 8
+protocol_freeze_id: cmp-3badcdea3547
+recorded_by: Yaroslav-Karpov
+recorded_at: '2026-11-03T09:14:15.250153+00:00'

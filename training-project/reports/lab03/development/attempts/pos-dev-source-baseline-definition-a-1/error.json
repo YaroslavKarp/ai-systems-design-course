@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "position_id": "pos-dev-source-baseline-definition-a-1",
+  "failure_class": "route-wide",
+  "error": "openrouter authentication failed: OPENROUTER_API_KEY is not set"
+}
