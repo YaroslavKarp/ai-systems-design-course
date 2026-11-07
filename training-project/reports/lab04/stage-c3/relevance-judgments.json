@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "designated human evaluator": "Yaroslav-Karpov",
+  "judged evaluation cases": [
+    {
+      "evaluation case": "Evaluation Case A",
+      "relevance judging basis": "A retrieval unit must explain which data identify the originating record, the originating record version, and the exact location of the supporting passage.",
+      "returned retrieval units judged": [
+        "F-B"
+      ],
+      "relevance judgments": [
+        {
+          "stable retrieval identifier": "F-B",
+          "relevance judgment": "not relevant",
+          "rationale": "F-B describes a proposal-run receipt that records the source and version of the model used to produce a concept proposal. It does not identify the originating knowledge record and its version or locate the exact supporting passage, so it does not satisfy the relevance judging basis."
+        }
+      ]
+    },
+    {
+      "evaluation case": "Evaluation Case B",
+      "relevance judging basis": "A retrieval unit must explain which data identify the originating record, the originating record version, and the exact location of the supporting passage.",
+      "returned retrieval units judged": [
+        "F-B"
+      ],
+      "relevance judgments": [
+        {
+          "stable retrieval identifier": "F-B",
+          "relevance judgment": "not relevant",
+          "rationale": "F-B describes the source and version of the model used for a proposal, not the originating knowledge record and its version. It also does not locate the exact supporting passage, so it does not satisfy the relevance judging basis."
+        }
+      ]
+    }
+  ],
+  "observation boundary": "relevance judgments over returned retrieval units; no retrieval metric"
+}

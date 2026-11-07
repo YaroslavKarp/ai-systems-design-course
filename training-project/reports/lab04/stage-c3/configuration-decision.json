@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "selected retrieval configuration": "lexical retrieval",
+  "experiment-baseline retrieval configuration": "lexical retrieval",
+  "candidate retrieval configuration": "embedding-based retrieval",
+  "decided by": "Yaroslav-Karpov, engineering team",
+  "rationale": "For Evaluation Case A and Evaluation Case B under course-seed-v1, the sentence-pair-v1 boundary, the declared relevance basis, and k=1, every non-empty configuration returned F-B, which was judged not relevant. Aggregate recall@1 is 0 of 2 for all four configurations; aggregate precision@1 is 0 of 1 for lexical and reranking, and 0 of 2 for embedding and hybrid. No retrieval-quality improvement was measured for the embedding-based candidate or other alternatives. Across three runs, mean latency for both queries was 0.040885 seconds for lexical, 0.722907 for embedding, 0.310079 for hybrid, and 0.323233 for reranking. Model-backed configurations incur encoder operations, while lexical scoring adds no model cost; there were no execution failures. Retain lexical retrieval for these declared cases only. This does not establish downstream concept-definition quality or authorize changes to the canonical collection.",
+  "decision boundary": "bounded to Evaluation Case A and Evaluation Case B, canonical knowledge collection version course-seed-v1, the sentence-pair-v1 retrieval-unit boundary, the declared relevance judging basis, and the configured result count k=1",
+  "authority boundary": "a bounded configuration decision about the retrieval configuration; it does not establish the quality of the candidate concept definition produced downstream, does not establish that the complete user workflow achieves its intended result, and does not authorize any change to the canonical knowledge collection",
+  "aggregate metrics at decision time": [
+    {
+      "retrieval configuration": "lexical retrieval",
+      "aggregation rule": "judged returned retrieval units counted across both evaluation cases; an empty ranked candidate output contributes no judged returned retrieval unit to the precision denominator",
+      "precision@1": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "recall@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      }
+    },
+    {
+      "retrieval configuration": "embedding-based retrieval",
+      "aggregation rule": "judged returned retrieval units counted across both evaluation cases; an empty ranked candidate output contributes no judged returned retrieval unit to the precision denominator",
+      "precision@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "recall@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      }
+    },
+    {
+      "retrieval configuration": "hybrid retrieval",
+      "aggregation rule": "judged returned retrieval units counted across both evaluation cases; an empty ranked candidate output contributes no judged returned retrieval unit to the precision denominator",
+      "precision@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "recall@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      }
+    },
+    {
+      "retrieval configuration": "lexical retrieval followed by embedding-based reranking",
+      "aggregation rule": "judged returned retrieval units counted across both evaluation cases; an empty ranked candidate output contributes no judged returned retrieval unit to the precision denominator",
+      "precision@1": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "recall@1": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      }
+    }
+  ],
+  "observation boundary": "one bounded configuration decision; no downstream claim"
+}
