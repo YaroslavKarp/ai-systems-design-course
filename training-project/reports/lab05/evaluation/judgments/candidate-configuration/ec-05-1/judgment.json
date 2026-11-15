@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "candidate configuration",
+  "evaluation case id": "EC-05-1",
+  "outcome type": "candidate concept definition",
+  "rubric check": "Candidate concept definition check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "Both claims cite F-A and restate its source facts about the originating record identifier, record version, exact sentence span, and locating the passage. No unsupported fact is added.",
+  "review minutes": 4.0,
+  "outcome sha256": "7aa97f9ed398aa32bd6ae8b480ee0cdb91db03cc8b812898e4e3d69133d2de5c",
+  "recorded by": "Yaroslav-Karpov",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}

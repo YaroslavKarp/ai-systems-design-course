@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "bounded configuration decision": "adopt the candidate configuration",
+  "decision rationale": "Both configurations passed all three reviewed outputs with a rubric pass rate of 1.00, and the frozen acceptance evaluation permits candidate adoption and baseline retention. The candidate uses the evidence-guarded instruction profile; it produced F-A-grounded claims for EC-05-1 and the required insufficiency and untrusted-instruction refusals for EC-05-2 and EC-05-3. Adopt it only for SEP-05-1 and these three development cases. Equal pass rates do not establish general superiority, performance on held-out cases, downstream workflow quality, or authority to change the canonical knowledge collection.",
+  "rubric pass rates": {
+    "experiment baseline": 1.0,
+    "candidate configuration": 1.0
+  },
+  "candidate configuration role outcome": "adoption permitted",
+  "experiment baseline role outcome": "retention permitted",
+  "scope": "The bounded configuration decision rests on the declared development evaluation cases and supplies no held-out evidence.",
+  "authority boundary": "The bounded configuration decision does not select a retrieval configuration and authorizes no write to the canonical knowledge collection.",
+  "recorded by": "Yaroslav-Karpov"
+}
