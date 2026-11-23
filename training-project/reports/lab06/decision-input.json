@@ -1,0 +1,7 @@
+{
+  "engineering_team": "Yaroslav Karpov - engineering team",
+  "decision": "adopt with graph expansion",
+  "rationale": "With graph expansion passed 2 of 2 outputs (1.00) and all frozen acceptance conditions. Without graph expansion passed 1 of 2 (0.50) and failed the minimum rubric pass rate of 1.00. No unsupported claims or conflicting instructions blocked the candidate. Observed question times were about 9.5-11.3 seconds, human review took 2-3 minutes per output, and total reported tokens were 27,207, below the 200,000 limit.",
+  "teaching_prediction_comparison": "The theory example predicts the rubric rate can rise from 0.50 to 1.00, but retains the baseline because its illustrative candidate latency exceeds 2.5 seconds. Here the quality pattern matched, while both expanded runs were below this protocol's 360-second limit, so the permitted decision is adoption for these two development cases.",
+  "graph_preparation_trade_off": "Expansion discovered F-2 for EC-06-1 and enabled a complete explanation; it added no new evidence for EC-06-2, which already contained F-1 and F-2. The approach requires graph preparation, human concept and relation review, and maintenance. Preparation time was not measured, and two development cases do not establish deployment benefit."
+}

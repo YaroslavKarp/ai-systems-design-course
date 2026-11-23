@@ -1,0 +1,15 @@
+{
+  "schema_version": "lab06-decision-v1",
+  "protocol_digest": "8c33b26d1cda037609dccc72fc514f9d837fbb943b227bd8cacb6cac87e0ed93",
+  "judgments_digest": "db6e09be487783baf7f562863d60e4a8b1e7a8cd9caa6da3167bc8e6622de098",
+  "assessment_digest": "72d1d2cf9f0348ae8ce00aab74720edac8ff0b1c562966b9166e134562199579",
+  "engineering_decision": {
+    "engineering_team": "Yaroslav Karpov - engineering team",
+    "decision": "adopt with graph expansion",
+    "rationale": "With graph expansion passed 2 of 2 outputs (1.00) and all frozen acceptance conditions. Without graph expansion passed 1 of 2 (0.50) and failed the minimum rubric pass rate of 1.00. No unsupported claims or conflicting instructions blocked the candidate. Observed question times were about 9.5-11.3 seconds, human review took 2-3 minutes per output, and total reported tokens were 27,207, below the 200,000 limit.",
+    "teaching_prediction_comparison": "The theory example predicts the rubric rate can rise from 0.50 to 1.00, but retains the baseline because its illustrative candidate latency exceeds 2.5 seconds. Here the quality pattern matched, while both expanded runs were below this protocol's 360-second limit, so the permitted decision is adoption for these two development cases.",
+    "graph_preparation_trade_off": "Expansion discovered F-2 for EC-06-1 and enabled a complete explanation; it added no new evidence for EC-06-2, which already contained F-1 and F-2. The approach requires graph preparation, human concept and relation review, and maintenance. Preparation time was not measured, and two development cases do not establish deployment benefit."
+  },
+  "scope": "These exposed development cases only; no deployment or population-wide claim.",
+  "authority_boundary": "Records the engineering team decision for these development cases only; no deployment approval or accepted-state write."
+}

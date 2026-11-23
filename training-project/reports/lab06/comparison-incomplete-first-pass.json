@@ -1,0 +1,131 @@
+{
+  "schema_version": "lab06-assessment-v1",
+  "protocol_digest": "8c33b26d1cda037609dccc72fc514f9d837fbb943b227bd8cacb6cac87e0ed93",
+  "judgments_digest": "f592c21d9b146780a41a8c8e25563e5fc83a8141dbd22197fb1a1f371cb3baf7",
+  "complete": false,
+  "missing_evidence": [
+    "without graph expansion: EC-06-1-v1: judgment",
+    "without graph expansion: EC-06-1-v1: review_minutes",
+    "without graph expansion: EC-06-2-v1: judgment",
+    "without graph expansion: EC-06-2-v1: review_minutes",
+    "with graph expansion: EC-06-1-v1: judgment",
+    "with graph expansion: EC-06-1-v1: review_minutes",
+    "with graph expansion: EC-06-2-v1: judgment",
+    "with graph expansion: EC-06-2-v1: review_minutes"
+  ],
+  "permitted_decision": null,
+  "configuration_decision": "not recorded",
+  "scope": "These exposed development cases only; no deployment or population-wide claim.",
+  "positions": [
+    {
+      "evaluation_case_id": "EC-06-1-v1",
+      "configuration": "without graph expansion",
+      "outcome_type": "generated prerequisite explanation",
+      "supported_connections": [
+        null,
+        null
+      ],
+      "judgment": null,
+      "unsupported_claim": null,
+      "explanation_despite_conflict": null,
+      "review_minutes": null,
+      "question_time_seconds": 11.327999999979511,
+      "reported_total_tokens": 13365,
+      "timing_origin": "live"
+    },
+    {
+      "evaluation_case_id": "EC-06-1-v1",
+      "configuration": "with graph expansion",
+      "outcome_type": "generated prerequisite explanation",
+      "supported_connections": [
+        null,
+        null
+      ],
+      "judgment": null,
+      "unsupported_claim": null,
+      "explanation_despite_conflict": null,
+      "review_minutes": null,
+      "question_time_seconds": 9.51600000000326,
+      "reported_total_tokens": 13572,
+      "timing_origin": "live"
+    },
+    {
+      "evaluation_case_id": "EC-06-2-v1",
+      "configuration": "without graph expansion",
+      "outcome_type": "generated prerequisite explanation",
+      "supported_connections": [
+        null,
+        null
+      ],
+      "judgment": null,
+      "unsupported_claim": null,
+      "explanation_despite_conflict": null,
+      "review_minutes": null,
+      "question_time_seconds": 10.84299999999348,
+      "reported_total_tokens": 13576,
+      "timing_origin": "live"
+    },
+    {
+      "evaluation_case_id": "EC-06-2-v1",
+      "configuration": "with graph expansion",
+      "outcome_type": "generated prerequisite explanation",
+      "supported_connections": [
+        null,
+        null
+      ],
+      "judgment": null,
+      "unsupported_claim": null,
+      "explanation_despite_conflict": null,
+      "review_minutes": null,
+      "question_time_seconds": 10.39100000000326,
+      "reported_total_tokens": 13635,
+      "timing_origin": "live"
+    }
+  ],
+  "configurations": {
+    "without graph expansion": {
+      "explanation_passes": 0,
+      "refusal_passes": 0,
+      "judged_outputs": 0,
+      "awaiting_judgment": 2,
+      "rubric_pass_rate": null,
+      "total_reported_tokens": 26941,
+      "acceptance_conditions": {
+        "minimum_rubric_pass_rate": null,
+        "blocking_failures": null,
+        "question_time": true,
+        "human_review_effort": null,
+        "token_usage": true
+      },
+      "missing_evidence": [
+        "EC-06-1-v1: judgment",
+        "EC-06-1-v1: review_minutes",
+        "EC-06-2-v1: judgment",
+        "EC-06-2-v1: review_minutes"
+      ],
+      "qualifies": null
+    },
+    "with graph expansion": {
+      "explanation_passes": 0,
+      "refusal_passes": 0,
+      "judged_outputs": 0,
+      "awaiting_judgment": 2,
+      "rubric_pass_rate": null,
+      "total_reported_tokens": 27207,
+      "acceptance_conditions": {
+        "minimum_rubric_pass_rate": null,
+        "blocking_failures": null,
+        "question_time": true,
+        "human_review_effort": null,
+        "token_usage": true
+      },
+      "missing_evidence": [
+        "EC-06-1-v1: judgment",
+        "EC-06-1-v1: review_minutes",
+        "EC-06-2-v1: judgment",
+        "EC-06-2-v1: review_minutes"
+      ],
+      "qualifies": null
+    }
+  }
+}
